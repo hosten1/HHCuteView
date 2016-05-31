@@ -15,6 +15,7 @@
 		6D762A5C1CFD1E3D00D48F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D762A5A1CFD1E3D00D48F42 /* LaunchScreen.storyboard */; };
 		6D762A671CFD1E3E00D48F42 /* HHCuteViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D762A661CFD1E3E00D48F42 /* HHCuteViewTests.m */; };
 		6D762A721CFD1E3E00D48F42 /* HHCuteViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D762A711CFD1E3E00D48F42 /* HHCuteViewUITests.m */; };
+		6D762A821CFD1E5F00D48F42 /* KYCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D762A811CFD1E5F00D48F42 /* KYCuteView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6D762A6D1CFD1E3E00D48F42 /* HHCuteViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHCuteViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D762A711CFD1E3E00D48F42 /* HHCuteViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCuteViewUITests.m; sourceTree = "<group>"; };
 		6D762A731CFD1E3E00D48F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D762A801CFD1E5F00D48F42 /* KYCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYCuteView.h; sourceTree = "<group>"; };
+		6D762A811CFD1E5F00D48F42 /* KYCuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYCuteView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		6D762A4B1CFD1E3D00D48F42 /* HHCuteView */ = {
 			isa = PBXGroup;
 			children = (
+				6D762A7F1CFD1E5F00D48F42 /* KYCuteView */,
 				6D762A4F1CFD1E3D00D48F42 /* AppDelegate.h */,
 				6D762A501CFD1E3D00D48F42 /* AppDelegate.m */,
 				6D762A521CFD1E3D00D48F42 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				6D762A731CFD1E3E00D48F42 /* Info.plist */,
 			);
 			path = HHCuteViewUITests;
+			sourceTree = "<group>";
+		};
+		6D762A7F1CFD1E5F00D48F42 /* KYCuteView */ = {
+			isa = PBXGroup;
+			children = (
+				6D762A801CFD1E5F00D48F42 /* KYCuteView.h */,
+				6D762A811CFD1E5F00D48F42 /* KYCuteView.m */,
+			);
+			path = KYCuteView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				6D762A541CFD1E3D00D48F42 /* ViewController.m in Sources */,
 				6D762A511CFD1E3D00D48F42 /* AppDelegate.m in Sources */,
 				6D762A4E1CFD1E3D00D48F42 /* main.m in Sources */,
+				6D762A821CFD1E5F00D48F42 /* KYCuteView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
